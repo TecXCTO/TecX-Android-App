@@ -103,3 +103,10 @@ class MainActivity : AppCompatActivity() {
         private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
     }
 }
+
+//
+private fun rotateBitmap(bitmap: Bitmap, rotationDegrees: Int): Bitmap {
+    val matrix = android.graphics.Matrix()
+    matrix.postRotate(rotationDegrees.toFloat())
+    return Bitmap.createBitmap(bitmap, 0, 0, bitmap.width, bitmap.height, matrix, true)
+}
