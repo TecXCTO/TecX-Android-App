@@ -38,8 +38,7 @@ TecXAndroidApp/
 
 ```
 5. Important Step for Python/Termux users
+
 Since you are working in Termux, when you move the file from your Termux environment to your computer/Android Studio, use the cp command to move it to a shared folder (like /sdcard/Download) so you can access it:
-bash
+
 cp your_model.onnx /sdcard/Download/
-Use code with caution.
-Would you like the XML layout 
