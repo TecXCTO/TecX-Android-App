@@ -19,7 +19,7 @@ btn.setOnClickListener {
     resultText.text = "Output: $output"
 }
 //
-package com.yourpackage.name
+package ai.tecx.tecxa
 
 import android.Manifest
 import android.content.pm.PackageManager
