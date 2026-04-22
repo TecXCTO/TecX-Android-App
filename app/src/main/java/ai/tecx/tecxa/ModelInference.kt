@@ -1,4 +1,5 @@
-package ai.tecx.tecxa. // Change to your actual package name
+//(AI Logic & Bitmap conversion)
+package ai.tecx.tecxa // Change to your actual package name
 
 import android.content.Context
 import ai.onnxruntime.*
