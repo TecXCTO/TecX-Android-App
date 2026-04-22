@@ -25,7 +25,7 @@ TecXAndroidApp/
 │   ├── build.gradle (Add ONNX dependency here)
 │   └── src/
 │       └── main/
-│           ├── java/com/example/myapp/
+│           ├── java/ai/tecx/tecxa/
 │           │   ├── MainActivity.kt (UI Logic)
 │           │   └── ModelInference.kt (AI Logic & Bitmap conversion)
 │           ├── res/
