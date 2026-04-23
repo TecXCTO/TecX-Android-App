@@ -1,0 +1,4 @@
+<style name="Theme.MyAIApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <!-- This changes the default color for all progress bars and checkboxes -->
+    <item name="colorSecondary">#00FF00</item> <!-- Example: Neon Green -->
+</style>
