@@ -46,3 +46,11 @@
     android:id="@+id/viewFinder"
     android:layout_width="match_parent"
     android:layout_height="400dp" />
+<!-- Add this inside your main LinearLayout, ideally below the Predict Button -->
+<ProgressBar
+    android:id="@+id/progressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_gravity="center"
+    android:visibility="gone" />
