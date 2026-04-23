@@ -19,3 +19,7 @@ dependencies {
     implementation "androidx.camera:camera-lifecycle:${camerax_version}"
     implementation "androidx.camera:camera-view:${camerax_version}"
 }
+// AI Engine
+implementation 'com.microsoft.onnxruntime:onnxruntime-android:latest.release'
+// JSON Parsing
+implementation 'com.google.code.gson:gson:2.10.1'
